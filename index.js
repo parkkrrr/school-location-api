@@ -1,7 +1,7 @@
 import "dotenv/config";
 import express from "express";
 import { addSchool, listSchools } from "./controller.js";
-
+import "./database.js";
 const app = express();
 app.use(express.json());
 
